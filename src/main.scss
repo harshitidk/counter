@@ -4,6 +4,7 @@ body
 {
     background-color: #090909;
     font-family: "Inter";
+    user-select: none;
 }
 
 .page
@@ -26,23 +27,40 @@ body
             font-weight: 600;
             color: #48B79F;
             letter-spacing: 2px;
+            margin-bottom: 10px;
         }
 
         &-show
         {
             font-size: 80px;
+            color: #00e0af;
         }
 
         &-button 
         {
             display: flex;
+            margin-top: 20px;
 
             &s
             {
-                padding: 10px 20px;
+                padding: 8px 25px;
                 background-color: #48B79F;
                 margin: 10px;
+                color: #003f31;
+                border-radius: 5px;
+
+                &:hover
+                {
+                    color: black;
+                    font-weight: bold;
+                    transition: all ease .3s;
+                }
             }
         }
     }
+}
+
+.hover:hover 
+{
+    cursor: pointer;
 }

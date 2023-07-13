@@ -2,6 +2,10 @@
 body {
   background-color: #090909;
   font-family: "Inter";
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
 }
 
 .page {
@@ -36,21 +40,37 @@ body {
   font-weight: 600;
   color: #48B79F;
   letter-spacing: 2px;
+  margin-bottom: 10px;
 }
 
 .page-box-show {
   font-size: 80px;
+  color: #00e0af;
 }
 
 .page-box-button {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  margin-top: 20px;
 }
 
 .page-box-buttons {
-  padding: 10px 20px;
+  padding: 8px 25px;
   background-color: #48B79F;
   margin: 10px;
+  color: #003f31;
+  border-radius: 5px;
+}
+
+.page-box-buttons:hover {
+  color: black;
+  font-weight: bold;
+  -webkit-transition: all ease .3s;
+  transition: all ease .3s;
+}
+
+.hover:hover {
+  cursor: pointer;
 }
 /*# sourceMappingURL=main.css.map */

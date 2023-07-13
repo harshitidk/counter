@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;400;500;600;700;800;900&display=swap");
+body {
+  background-color: #090909;
+  font-family: "Inter";
+}
+
+.page {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 90vh;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.page-box {
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.page-box-title {
+  font-size: 60px;
+  font-weight: 600;
+  color: #48B79F;
+  letter-spacing: 2px;
+}
+
+.page-box-show {
+  font-size: 80px;
+}
+
+.page-box-button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.page-box-buttons {
+  padding: 10px 20px;
+  background-color: #48B79F;
+  margin: 10px;
+}
+/*# sourceMappingURL=main.css.map */
